@@ -15,7 +15,7 @@ const Layout = (props) => {
             }
             console.log("user",user);
         });
-    },[]);
+    },[navigate]);
   return (
     <div>
         <NavBar/>

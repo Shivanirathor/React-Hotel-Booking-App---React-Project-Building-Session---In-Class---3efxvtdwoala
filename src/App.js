@@ -1,8 +1,8 @@
-import logo from "./logo.svg";
+
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import NavBar from "./components/NavBar";
+
 import Home from "./containers/Home";
 import HotelDetails from "./containers/HotelDetails";
 import Login from "./containers/Login";

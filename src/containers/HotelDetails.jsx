@@ -2,7 +2,7 @@ import { Container, Grid, Typography } from "@mui/material";
 import { useParams } from "react-router";
 import axios from "axios";
 import { useEffect, useState } from "react";
-import NavBar from "../components/NavBar";
+
 
 const HotelDetails = () => {
   const params = useParams();
