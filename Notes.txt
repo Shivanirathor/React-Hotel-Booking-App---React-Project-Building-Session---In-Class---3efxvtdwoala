@@ -1,0 +1,45 @@
+Steps 
+1. Navigate to a folder in your system
+2. Open cmd in that folder
+3. Run npx create-react-app hotel_booking
+4. Upon successfull completion close the terminal and open the folder in VS Code
+5. In the code start modification from App.js file present inside the src folder.
+6. Install mui
+7. Create 2 folders inside src (components and containers)
+8. Create files inside the folder NavBar.js and Home.js
+
+Screen Sizes : 
+xs => extra small
+sm => small
+md => medium
+lg => large
+xl => extra large
+xxl => extra extra large
+
+https://mui.com/material-ui/react-grid/
+
+----------------------------------------
+28 June 
+1. Call an API
+2. Design Hotel Information Page
+
+
+Dynamic Route for Hotel Details : 
+1. Create a dynamic route in app.js with pattern /hotel-details/:slug
+2. Use hook useNavigate() to redirect the user to hotel-details screen
+3. On hotel details component use useParams hook to get the dynamic slug value
+
+29 June
+Google based authentication with Firebase
+1. Create a login page with a button "Login With Google" in our project.
+2. Register an account on firebase
+3. Register a project on firebase
+4. Generate a pair of keys/api key/secret key
+5. Use firebase library to allow google login
+6. Retrieve user information like Name, Email, Profile Picture etc
+
+30 June
+1. Move navbar to screens which are visible only after login
+2. Username and password based authentication
+3. How to protect and redirect from routes
+4. Logout
